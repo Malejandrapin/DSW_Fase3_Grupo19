@@ -1,0 +1,16 @@
+body, table, nav, footer, section{
+    max-width: 77%;
+    margin: auto;
+}
+body {
+    background-color: ghostwhite;
+}
+table {
+    width: 100%;
+ }
+nav{
+    background-color: lightseagreen;
+}
+footer {
+    background-color: black;
+}
