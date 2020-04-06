@@ -1,3 +1,11 @@
+
+* {
+          padding: 0px; 
+          margin:  0px;
+         } 
+
+
+
 body, table, nav, footer, section{
     max-width: 77%;
     margin: auto;
@@ -13,4 +21,112 @@ nav{
 }
 footer {
     background-color: black;
+}
+
+         #men {
+
+          margin: auto;
+          width: 500px; 
+          font-family: "Franklin Gothic Italic"; 
+
+         }
+
+         ul, ol {
+
+          list-style: none;
+
+         }
+
+          .nav li a {
+
+              background-color: #005883; 
+              color: #F0B429; 	
+              text-decoration: none;
+              padding: 10px 15px;
+              display: block;
+
+
+          }
+
+
+          .nav li a:hover{
+             background-color:   #F0B429;
+             color: #005883;	
+          }
+
+          .nav > li {
+
+            float: left;
+
+
+          }
+
+          .nav li ul{
+
+            display:  none; 
+            position:   absolute; 
+            min-width:  140px; 
+          }
+
+          .nav li:hover > ul {
+
+            display:  block;  
+
+          }
+
+          .nav li lu li{
+
+            position:   relative; 
+          }
+
+          .nav li ul li ul{
+                right:  -140px;
+                top:  0px;
+
+          }
+/* Titulo mayor color azul institucional*/
+
+#header {
+
+	font-family: "Angsana New Bold";
+	font-size: 30px;
+	color: #005883;
+
+}
+
+/*Titulo Secundario color naranja institucional */
+#header2 {
+
+	font-family:  "Franklin Gothic Heavy";
+	color: #F0B429;
+	font-size: 25px;
+}
+/* Texto en general color gris institucional*/
+
+#texto {
+
+	font-family: "Franklin Gothic Book";
+	color: #333333;
+	text-align: justify;
+}
+
+/* Titulo normal color azul institucional*/
+
+#header3 {
+
+	font-family: "Franklin Gothic Heavy";
+	font-size: 20px;
+	color: #F0B429;
+
+}
+
+/* Texto en general color gris institucional*/
+
+#pie {
+
+	font-family: "Franklin Gothic Italic";
+	color: white;
+	font-size: 12px;
+	background-color: #005883;
+
 }
