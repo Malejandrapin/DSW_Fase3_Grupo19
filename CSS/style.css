@@ -1,0 +1,117 @@
+/*titulo principal*/
+#header {
+	font-family: "Angsana New Bold";
+	color: #005883;
+	padding: 0px;
+	margin: auto;
+}
+
+/*titulo secundario*/
+#header2 {
+
+	font-family: "Franklin Gothic Italic";
+	color: #F47920;
+}
+
+
+/*text general*/
+#text {
+
+	font-family: "Franklin Gothic Book";
+	color: #333333;
+}
+
+
+
+body, table, nav, footer, section{
+    max-width: 77%;
+    margin: auto;
+    padding: 0px; 
+   
+}
+body {
+
+    background-color: ghostwhite;
+}
+table {
+    width: 100%;
+ }
+
+nav{
+    background-color: #005883;
+    text-align: center;
+}
+
+
+
+
+footer {
+    background-color: #005883;
+    text-align: center;
+    font-family: "Franklin Gothic Book"
+    font-size:16;
+    color: white;
+}
+
+/* Menu Principal*/
+#men {
+
+          margin: auto;
+          width: 500px; 
+          font-family: "Franklin Gothic Italic"; 
+
+         }
+
+         ul, ol {
+
+          list-style: none;
+
+         }
+
+          .nav li a {
+
+              background-color: #005883; 
+              color: #F47920; 
+              text-decoration: none;
+              padding: 10px 15px;
+              display: block;
+
+
+          }
+
+
+          .nav li a:hover{
+             background-color:   #F47920;
+             color: #005883;
+          }
+
+          .nav > li {
+
+            float: left;
+
+
+          }
+
+          .nav li ul{
+
+            display:  none; 
+            position:   absolute; 
+            min-width:  140px; 
+          }
+
+          .nav li:hover > ul {
+
+            display:  block;  
+
+          }
+
+          .nav li lu li{
+
+            position:   relative; 
+          }
+
+          .nav li ul li ul{
+                right:  -140px;
+                top:  0px;
+
+          }
