@@ -25,8 +25,8 @@ footer {
 
          #men {
 
-          margin: auto;
-          width: 500px; 
+          margin: center;
+          width: 1000px; 
           font-family: "Franklin Gothic Italic"; 
 
          }
@@ -44,7 +44,7 @@ footer {
               text-decoration: none;
               padding: 10px 15px;
               display: block;
-
+              width: 120px; 
 
           }
 
@@ -129,4 +129,37 @@ footer {
 	font-size: 12px;
 	background-color: #005883;
 
+}
+
+.Autor{
+
+  width:"100%";  
+}
+
+.Autor td{
+  background-color:#61B1C8;
+}
+
+#lista {
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: justify;
+  display:inline-block;  
+}
+
+#contenedor_redes {
+  width: 1000px;
+  height: 260px;
+}
+
+#objetivo {
+  float: left;
+  width: 400px;  
+}
+#separador {
+  width: 50px;  
+}
+#redes {
+  float: right;
+  width: 500px;
 }
