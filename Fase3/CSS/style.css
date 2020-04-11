@@ -1,122 +1,122 @@
 
 * {
-          padding: 0px; 
-          margin:  0px;
-         } 
+  padding: 0px; 
+  margin:  0px;
+ } 
 
 
 
 body, table, nav, footer, section{
-    max-width: 77%;
-    margin: auto;
+max-width: 77%;
+margin: auto;
 }
 body {
-    background-color: ghostwhite;
+background-color: ghostwhite;
 }
 table {
-    width: 100%;
- }
+width: 100%;
+}
 nav{
-    background-color: lightseagreen;
+background-color: lightseagreen;
 }
 footer {
-    background-color: black;
+background-color: black;
 }
 
-         #men {
+ #men {
 
-          margin: auto;
-          width: 750px; 
-          font-family: "Franklin Gothic Italic"; 
+  margin: auto;
+  width: 750px; 
+  font-family: "Franklin Gothic Italic"; 
 
-         }
+ }
 
-         ul, ol {
+ ul, ol {
 
-          list-style: none;
+  list-style: none;
 
-         }
+ }
 
-          .nav li a {
+  .nav li a {
 
-              background-color: #005883; 
-              color: #F0B429; 	
-              text-decoration: none;
-              padding: 10px 15px;
-              display: block;
-              width: 120px; 
+      background-color: #005883; 
+      color: #F0B429; 	
+      text-decoration: none;
+      padding: 10px 15px;
+      display: block;
+      width: 120px; 
 
-          }
-
-
-          .nav li a:hover{
-             background-color:   #F0B429;
-             color: #005883;	
-          }
-
-          .nav > li {
-
-            float: left;
+  }
 
 
-          }
+  .nav li a:hover{
+     background-color:   #F0B429;
+     color: #005883;	
+  }
 
-          .nav li ul{
+  .nav > li {
 
-            display:  none; 
-            position:   absolute; 
-            min-width:  140px; 
-          }
+    float: left;
 
-          .nav li:hover > ul {
 
-            display:  block;  
+  }
 
-          }
+  .nav li ul{
 
-          .nav li lu li{
+    display:  none; 
+    position:   absolute; 
+    min-width:  140px; 
+  }
 
-            position:   relative; 
-          }
+  .nav li:hover > ul {
 
-          .nav li ul li ul{
-                right:  -140px;
-                top:  0px;
+    display:  block;  
 
-          }
+  }
+
+  .nav li lu li{
+
+    position:   relative; 
+  }
+
+  .nav li ul li ul{
+        right:  -140px;
+        top:  0px;
+
+  }
 /* Titulo mayor color azul institucional*/
 
 #header {
 
-	font-family: "Angsana New Bold";
-	font-size: 30px;
-	color: #005883;
+font-family: "Angsana New Bold";
+font-size: 30px;
+color: #005883;
 
 }
 
 /*Titulo Secundario color naranja institucional */
 #header2 {
 
-	font-family:  "Franklin Gothic Heavy";
-	color: #F0B429;
-	font-size: 25px;
+font-family:  "Franklin Gothic Heavy";
+color: #F0B429;
+font-size: 25px;
 }
 /* Texto en general color gris institucional*/
 
 #texto {
 
-	font-family: "Franklin Gothic Book";
-	color: #333333;
-	text-align: justify;
+font-family: "Franklin Gothic Book";
+color: #333333;
+text-align: justify;
 }
 
 /* Titulo normal color azul institucional*/
 
 #header3 {
 
-	font-family: "Franklin Gothic Heavy";
-	font-size: 20px;
-	color: #F0B429;
+font-family: "Franklin Gothic Heavy";
+font-size: 20px;
+color: #F0B429;
 
 }
 
@@ -124,42 +124,42 @@ footer {
 
 #pie {
 
-	font-family: "Franklin Gothic Italic";
-	color: white;
-	font-size: 12px;
-	background-color: #005883;
+font-family: "Franklin Gothic Italic";
+color: white;
+font-size: 12px;
+background-color: #005883;
 
 }
 
 .Autor{
 
-  width:"100%";  
+width:"100%";  
 }
 
 .Autor td{
-  background-color:#61B1C8;
+background-color:#61B1C8;
 }
 
 #lista {
-  list-style-type: square;
-  list-style-position: inside;
-  text-align: justify;
-  display:inline-block;  
+list-style-type: square;
+list-style-position: inside;
+text-align: justify;
+display:inline-block;  
 }
 
 #contenedor_redes {
-  width: 1000px;
-  height: 260px;
+width: 1000px;
+height: 260px;
 }
 
 #objetivo {
-  float: left;
-  width: 400px;  
+float: left;
+width: 400px;  
 }
 #separador {
-  width: 50px;  
+width: 50px;  
 }
 #redes {
-  float: right;
-  width: 500px;
+float: right;
+width: 500px;
 }
